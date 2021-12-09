@@ -21,7 +21,7 @@ contract DropHunter {
     }
 
     constructor() {
-        owner == msg.sender;
+        owner = msg.sender;
     }
 
     modifier onlyOwner{
